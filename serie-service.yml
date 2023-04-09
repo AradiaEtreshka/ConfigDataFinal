@@ -4,7 +4,7 @@ server:
 
 spring:
   application:
-    name: serie-service
+    name: api-serie
   rabbitmq:
     username: guest
     password: guest

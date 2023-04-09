@@ -4,7 +4,7 @@ server:
 
 spring:
   application:
-    name: movie-service
+    name: api-movie
   rabbitmq:
     username: guest
     password: guest

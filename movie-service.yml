@@ -9,9 +9,9 @@ spring:
   application:
     name: movie-service
   datasource:
-    url : jdbc:mysql://localhost:3306/movieservice?createDatabaseIfNotExist=true
-    username : root
-    password : root
+    url : jdbc:mysql://localhost:3306/movie-dev?createDatabaseIfNotExist=true
+    username : usr
+    password : pwd
     driverClassName : com.mysql.cj.jdbc.Driver
   jpa:
     defer-datasource-initialization: true

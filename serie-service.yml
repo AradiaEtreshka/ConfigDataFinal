@@ -17,11 +17,8 @@ spring:
     mongodb:
       database: series-dev
       port: 27017
-      #host: localhost
+      host: localhost
 
-info:
-  application:
-    name: serie-service
 eureka:
   instance:
     hostname: localhost
